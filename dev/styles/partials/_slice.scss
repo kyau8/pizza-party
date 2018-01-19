@@ -1,0 +1,40 @@
+/* PIZZA SLICE STYLES */
+
+.slice {
+    position: absolute;
+    width: 33.33%;
+    height: 50%;
+}
+
+.slice-one {
+    left: 0;
+    // border: 2px solid palevioletred;
+}
+
+.slice-two {
+    left: 33.3%;
+    // border: 2px solid palegreen;
+}
+
+.slice-three {
+    right: 0;
+    // border: 2px solid lightblue;
+}
+
+.slice-four {
+    left:0;
+    top: 50%;
+    // border: 2px solid lightpink;
+}
+
+.slice-five {
+    left: 33.3%;
+    top: 50%;
+    // border: 2px solid lightsalmon;
+}
+
+.slice-six {
+    right: 0;
+    top: 50%;
+    // border: 2px solid lightseagreen;
+}

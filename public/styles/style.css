@@ -144,21 +144,6 @@ body {
   height: 500px;
   background: none; }
 
-.slice {
-  position: absolute;
-  border: 2px solid palevioletred;
-  width: 33.3%;
-  left: 33.3%;
-  height: 50%; }
-
-.base-crust {
-  position: absolute;
-  width: 78%;
-  height: 80%;
-  left: 11%;
-  top: 17%;
-  background: #9c6a28; }
-
 .sauce {
   position: absolute;
   width: 98%;
@@ -177,41 +162,173 @@ body {
   background: #ffd104;
   z-index: 5; }
 
-.side-crust {
+/* PIZZA SLICE STYLES */
+.slice {
+  position: absolute;
+  width: 33.33%;
+  height: 50%; }
+
+.slice-one {
+  left: 0; }
+
+.slice-two {
+  left: 33.3%; }
+
+.slice-three {
+  right: 0; }
+
+.slice-four {
+  left: 0;
+  top: 50%; }
+
+.slice-five {
+  left: 33.3%;
+  top: 50%; }
+
+.slice-six {
+  right: 0;
+  top: 50%; }
+
+/* CRUST STYLES */
+.base-crust {
+  position: absolute;
+  width: 78%;
+  height: 80%;
+  background: #9c6a28; }
+
+.crust-one {
+  top: 17%;
+  left: 17%; }
+
+.crust-two {
+  top: 17%;
+  left: 11%; }
+
+.crust-three {
+  top: 17%;
+  right: 17%; }
+
+.crust-four {
+  bottom: 17%;
+  left: 17%; }
+
+.crust-five {
+  bottom: 17%;
+  left: 11%; }
+
+.crust-six {
+  bottom: 17%;
+  right: 17%; }
+
+.top-crust {
   position: absolute;
   width: 105%;
   height: 23%;
-  top: -15%;
-  left: -2%;
+  background: #80531a;
+  z-index: 2;
+  left: -2%; }
+
+.north-crust {
+  top: -15%; }
+
+.south-crust {
+  bottom: -19%; }
+
+.top-crust-two {
+  position: absolute;
+  width: 105%;
+  height: 23%;
+  background: #a76611;
+  z-index: 4;
+  left: 0; }
+
+.north-crust-two {
+  top: -17%; }
+
+.south-crust-two {
+  bottom: -17%; }
+
+.top-crust-three {
+  position: absolute;
+  width: 105%;
+  height: 23%;
+  background: #885717;
+  z-index: 6;
+  left: 2%; }
+
+.north-crust-three {
+  top: -19%; }
+
+.south-crust-three {
+  bottom: -15%; }
+
+.side-crust {
+  position: absolute;
+  width: 23%;
+  height: 117%;
   background: #80531a;
   z-index: 2; }
 
+.west-crust {
+  left: -11%;
+  top: -15%; }
+
+.east-crust {
+  right: -7%;
+  top: -15%; }
+
 .side-crust-two {
   position: absolute;
-  width: 105%;
-  height: 23%;
-  top: -17%;
-  left: 0%;
+  width: 23%;
+  height: 117%;
   background: #a76611;
   z-index: 4; }
 
+.east-crust-two {
+  right: -9%;
+  top: -17%; }
+
+.west-crust-two {
+  left: -9%;
+  top: -17%; }
+
 .side-crust-three {
   position: absolute;
-  width: 105%;
-  height: 23%;
-  top: -19%;
-  left: 2%;
+  width: 23%;
+  height: 117%;
   background: #885717;
   z-index: 6; }
 
+.west-crust-three {
+  left: -7%;
+  top: -19%; }
+
+.east-crust-three {
+  top: -19%;
+  right: -11%; }
+
+/* PEPPERONI STYLES */
 .pepperoni {
   position: absolute;
   width: 34%;
   height: 34%;
-  top: 17%;
-  left: 4%;
   background: brown;
   border-radius: 50%; }
+
+.half-pepperoni {
+  position: absolute;
+  width: 38%;
+  height: 19%;
+  background: brown;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px; }
+
+.quarter-pepperoni {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  background: brown;
+  border-bottom-left-radius: 90px; }
 
 .pepperoni-ring {
   position: absolute;
@@ -219,8 +336,20 @@ body {
   height: 99%;
   top: -4%;
   left: 4%;
-  border: 2px solid rgba(233, 217, 217, 0.884);
+  border: 2px solid rgba(233, 217, 217, 0.884); }
+
+.full-ring {
   border-radius: 50%; }
+
+.half-ring {
+  border-bottom: none;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px; }
+
+.quarter-ring {
+  border-right: none;
+  border-top: none;
+  border-bottom-left-radius: 90px; }
 
 .pepperoni-fat-one {
   position: absolute;
@@ -240,11 +369,18 @@ body {
   bottom: 40%;
   right: 17%; }
 
-.pepperoni-pepper {
-  position: absolute;
-  width: 3%;
-  height: 3%;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.767);
-  top: 21%;
-  right: 37%; }
+#pep-one {
+  top: 17%;
+  left: 4%; }
+
+#pep-two {
+  top: 45%;
+  right: 10%; }
+
+#half-pep-one {
+  bottom: 0;
+  right: 38%; }
+
+#quarter-pep-one {
+  right: 0;
+  top: 8%; }

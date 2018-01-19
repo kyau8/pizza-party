@@ -1,0 +1,91 @@
+/* PEPPERONI STYLES */
+
+.pepperoni {
+    position: absolute;
+    width: 34%;
+    height: 34%;
+    background: brown;
+    border-radius: 50%;
+}
+
+.half-pepperoni {
+    position: absolute;
+    width: 38%;
+    height: 19%;
+    background: brown;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.quarter-pepperoni {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background: brown;
+    border-bottom-left-radius: 90px;
+}
+
+.pepperoni-ring {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    top: -4%;
+    left: 4%;
+    border: 2px solid rgba(233, 217, 217, 0.884);
+}
+
+.full-ring {
+    border-radius: 50%;
+}
+
+.half-ring {
+    border-bottom: none;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.quarter-ring {
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 90px;
+}
+
+.pepperoni-fat-one {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    background: rgba(224, 161, 161, 0.781);
+    border-radius: 50%;
+    top: 30%;
+    left: 27%;
+}
+
+.pepperoni-fat-two {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    border-radius: 50%;
+    background: rgba(224, 161, 161, 0.781);
+    bottom: 40%;
+    right: 17%;
+}
+
+#pep-one {
+    top: 17%;
+    left: 4%;
+}
+
+#pep-two {
+    top: 45%;
+    right: 10%;
+}
+
+#half-pep-one {
+    bottom: 0;
+    right: 38%;
+}
+
+#quarter-pep-one {
+    right: 0;
+    top: 8%;
+}

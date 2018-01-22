@@ -109,6 +109,14 @@
     bottom: -19%;
 }
 
+.west-bottom-two {
+    bottom: -17%;
+}
+
+.west-bottom-three {
+    bottom: -15%;
+}
+
 .east-crust {
     right: -7%;
     top: -15%;
@@ -129,6 +137,9 @@
 
 .west-crust-two {
     left: -9%;
+}
+
+.west-top-two {
     top: -17%;
 }
 
@@ -144,9 +155,12 @@
     z-index: 6;
 }
 
+.west-top-three {
+    top: -19%;
+}
+
 .west-crust-three {
     left: -7%;
-    top: -19%;
 }
 
 .east-crust-three {

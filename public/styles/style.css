@@ -278,6 +278,12 @@ body {
 .west-bottom {
   bottom: -19%; }
 
+.west-bottom-two {
+  bottom: -17%; }
+
+.west-bottom-three {
+  bottom: -15%; }
+
 .east-crust {
   right: -7%;
   top: -15%; }
@@ -294,7 +300,9 @@ body {
   top: -17%; }
 
 .west-crust-two {
-  left: -9%;
+  left: -9%; }
+
+.west-top-two {
   top: -17%; }
 
 .west-bottom-two {
@@ -307,9 +315,11 @@ body {
   background: #885717;
   z-index: 6; }
 
-.west-crust-three {
-  left: -7%;
+.west-top-three {
   top: -19%; }
+
+.west-crust-three {
+  left: -7%; }
 
 .east-crust-three {
   top: -19%;

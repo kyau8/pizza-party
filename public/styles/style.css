@@ -297,6 +297,9 @@ body {
   left: -9%;
   top: -17%; }
 
+.west-bottom-two {
+  bottom: -17%; }
+
 .side-crust-three {
   position: absolute;
   width: 23%;

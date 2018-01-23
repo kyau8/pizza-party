@@ -334,9 +334,7 @@ body {
   position: absolute;
   width: 38%;
   height: 19%;
-  background: brown;
-  border-top-left-radius: 90px;
-  border-top-right-radius: 90px; }
+  background: brown; }
 
 .quarter-pepperoni {
   position: absolute;
@@ -361,7 +359,7 @@ body {
 .full-ring {
   border-radius: 50%; }
 
-.half-ring {
+.half-ring-top {
   border-bottom: none;
   border-top-left-radius: 90px;
   border-top-right-radius: 90px; }
@@ -417,7 +415,9 @@ body {
 
 .s-two-half-pep-one {
   bottom: 0;
-  right: 38%; }
+  right: 38%;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px; }
 
 .s-two-quart-pep-one {
   right: 0;
@@ -432,7 +432,9 @@ body {
 
 .s-three-half-pep-one {
   right: 25%;
-  bottom: 0; }
+  bottom: 0;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px; }
 
 .s-three-pep-two {
   top: 55%;
@@ -444,12 +446,81 @@ body {
 
 .s-four-pep-one {
   top: 3%;
-  left: 24%; }
+  left: 18%; }
 
 .s-four-pep-two {
   top: 60%;
   left: 55%; }
 
 .s-four-pep-three {
-  top: 76%;
+  top: 70%;
+  left: 8%; }
+
+.s-four-pep-four {
+  top: 17%;
+  right: 5%; }
+
+.s-five-pep-one {
+  top: 22%;
+  left: 2%; }
+
+.s-five-pep-two {
+  top: 34%;
+  right: 15%; }
+
+.s-five-pep-three {
+  top: 70%;
+  right: 50%; }
+
+.s-five-half-pep-one {
+  left: 24%;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px; }
+
+.half-ring-bottom {
+  border-bottom: none;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px; }
+
+.s-five-half-pep-two {
+  right: 0;
+  top: 5%;
+  height: 37%;
+  width: 20%;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px; }
+
+.half-ring-side {
+  border-right: 0;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px; }
+
+.s-six-half-pep-one {
+  left: 0;
+  top: 5%;
+  width: 20%;
+  height: 37%;
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px; }
+
+.half-ring-side-two {
+  border-left: 0;
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px; }
+
+.s-six-half-pep-two {
+  right: 25%;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px; }
+
+.s-six-pep-one {
+  top: 20%;
   left: 20%; }
+
+.s-six-pep-two {
+  top: 55%;
+  right: 17%; }
+
+.s-six-pep-three {
+  top: 75%;
+  right: 55%; }

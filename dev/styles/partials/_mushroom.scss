@@ -1,0 +1,79 @@
+/* MUSHROOM STYLES */
+.mushroom {
+    position: absolute;
+    height: 32%;
+    width: 32%;
+}
+
+.mushroom-cap {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    background: rgb(224, 198, 164);
+}
+
+.mushroom-stem {
+    position: absolute;
+    height: 30%;
+    width: 40%;
+    background: rgb(224, 198, 164);
+    bottom: 10%;
+    right: 30%;
+}
+
+.mushroom-accent-one {
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    background:rgba(71, 50, 50, 0.7);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom: none;
+    top: 36%;
+    left: 19%;
+}
+
+.mushroom-accent-two {
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    background:rgba(71, 50, 50, 0.7);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom: none;
+    top: 36%;
+    right: 19%;
+}
+
+.cap-accent {
+    position: absolute;
+    border: 2px solid rgba(71, 50, 50, 0.7);
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+
+.stem-accent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -2%;
+    left: -2%;
+    border: 2px solid rgba(71, 50, 50, 0.7);
+    border-top: none;
+    border-right: none;
+}
+.s-one-mushroom-one {
+    top: 20%;
+    left: 20%;
+    transform: rotate(-10deg);
+}
+
+.s-one-mushroom-two {
+    top: 42%;
+    right: 13%;
+    transform: rotate(10deg);
+}

@@ -524,3 +524,250 @@ body {
 .s-six-pep-three {
   top: 75%;
   right: 55%; }
+
+/* SPINACH STYLES */
+.spinach {
+  position: absolute;
+  height: 34%;
+  width: 20%;
+  background: darkgreen;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px; }
+
+.spinach-border {
+  position: absolute;
+  right: -4%;
+  top: -4%;
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px; }
+
+.spinach-line {
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+  position: absolute;
+  left: -25%;
+  top: 20%;
+  height: 55%;
+  width: 100%;
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-right-radius: 60px; }
+
+.s-one-spin-one {
+  top: 10%;
+  left: 35%; }
+
+.s-one-spin-two {
+  bottom: 6%;
+  right: 10%;
+  -webkit-transform: rotate(65deg);
+          transform: rotate(65deg); }
+
+.s-one-spin-three {
+  bottom: 10%;
+  left: 12%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg); }
+
+.s-one-spin-four {
+  top: 20%;
+  right: 5%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.s-two-spin-one {
+  top: 58%;
+  left: 18%;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg); }
+
+.s-two-spin-two {
+  top: 66%;
+  right: 8%;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg); }
+
+.s-two-spin-three {
+  left: 4%; }
+
+.s-two-spin-four {
+  top: 12%;
+  right: 12%; }
+
+.s-two-spin-five {
+  top: 30%;
+  left: 45%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg); }
+
+.s-three-spin-one {
+  right: 25%;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg); }
+
+.s-three-spin-two {
+  right: 40%;
+  top: 35%;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg); }
+
+.s-three-spin-three {
+  right: 20%;
+  bottom: 5%; }
+
+.s-three-spin-four {
+  top: 45%; }
+
+.s-four-spin-one {
+  right: 20%;
+  top: 3%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg); }
+
+.s-four-spin-two {
+  right: 34%;
+  top: 45%; }
+
+.s-four-spin-three {
+  top: 40%;
+  left: 10%;
+  -webkit-transform: rotate(-120deg);
+          transform: rotate(-120deg); }
+
+.s-four-spin-four {
+  left: 8%;
+  top: 1%; }
+
+.s-four-spin-five {
+  right: 6%;
+  bottom: 4%;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg); }
+
+.s-four-spin-six {
+  left: 27%;
+  bottom: 0;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg); }
+
+.s-five-spin-one {
+  top: 13%;
+  right: 8%;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg); }
+
+.s-five-spin-two {
+  top: 45%;
+  right: 50%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.s-five-spin-three {
+  bottom: 5%;
+  right: 14%; }
+
+.s-five-spin-four {
+  top: 6%;
+  left: 13%; }
+
+.s-six-spin-one {
+  bottom: 0;
+  left: 4%; }
+
+.s-six-spin-two {
+  top: 3%;
+  left: 13%;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg); }
+
+.s-six-spin-three {
+  top: 45%;
+  right: 45%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg); }
+
+.s-six-spin-four {
+  top: 14%;
+  right: 12%; }
+
+.s-six-spin-five {
+  bottom: 10%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  right: 10%; }
+
+/* MUSHROOM STYLES */
+.mushroom {
+  position: absolute;
+  height: 32%;
+  width: 32%; }
+
+.mushroom-cap {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  background: #e0c6a4; }
+
+.mushroom-stem {
+  position: absolute;
+  height: 30%;
+  width: 40%;
+  background: #e0c6a4;
+  bottom: 10%;
+  right: 30%; }
+
+.mushroom-accent-one {
+  position: absolute;
+  height: 25%;
+  width: 10%;
+  background: rgba(71, 50, 50, 0.7);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  border-bottom: none;
+  top: 36%;
+  left: 19%; }
+
+.mushroom-accent-two {
+  position: absolute;
+  height: 25%;
+  width: 10%;
+  background: rgba(71, 50, 50, 0.7);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  border-bottom: none;
+  top: 36%;
+  right: 19%; }
+
+.cap-accent {
+  position: absolute;
+  border: 2px solid rgba(71, 50, 50, 0.7);
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px; }
+
+.stem-accent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -2%;
+  left: -2%;
+  border: 2px solid rgba(71, 50, 50, 0.7);
+  border-top: none;
+  border-right: none; }
+
+.s-one-mushroom-one {
+  top: 20%;
+  left: 20%;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg); }
+
+.s-one-mushroom-two {
+  top: 42%;
+  right: 13%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg); }

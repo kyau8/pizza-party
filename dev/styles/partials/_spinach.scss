@@ -1,0 +1,185 @@
+/* SPINACH STYLES */
+.spinach {
+    position: absolute;
+    height: 34%;
+    width: 20%;
+    background: darkgreen;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.spinach-border {
+    position: absolute;
+    right: -4%;
+    top: -4%;
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.spinach-line {
+    transform: rotate(2deg);
+    position: absolute;
+    left: -25%;
+    top: 20%;
+    height: 55%;
+    width: 100%;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-right-radius: 60px;
+}
+
+.s-one-spin-one {
+    top: 10%;
+    left: 35%;
+}
+
+.s-one-spin-two {
+    bottom: 6%;
+    right: 10%;
+    transform: rotate(65deg);
+}
+
+.s-one-spin-three {
+    bottom: 10%;
+    left: 12%;
+    transform: rotate(-30deg);
+}
+
+.s-one-spin-four {
+    top: 20%;
+    right: 5%;
+    transform: rotate(180deg);
+}
+
+.s-two-spin-one {
+    top: 58%;
+    left: 18%;
+    transform: rotate(-10deg);
+}
+
+.s-two-spin-two {
+    top: 66%;
+    right: 8%;
+    transform: rotate(80deg);
+}
+
+.s-two-spin-three {
+    left: 4%;
+}
+
+.s-two-spin-four {
+    top: 12%;
+    right: 12%;
+}
+
+.s-two-spin-five {
+    top: 30%;
+    left: 45%;
+    transform: rotate(30deg);
+}
+
+.s-three-spin-one {
+    right: 25%;
+    transform: rotate(-15deg);
+}
+
+.s-three-spin-two {
+    right: 40%;
+    top: 35%;
+    transform: rotate(35deg);
+}
+
+.s-three-spin-three {
+    right: 20%;
+    bottom: 5%;
+}
+
+.s-three-spin-four {
+    top: 45%;
+}
+
+.s-four-spin-one {
+    right: 20%;
+    top: 3%;
+    transform: rotate(-30deg);
+}
+
+.s-four-spin-two {
+    right: 34%;
+    top: 45%;
+}
+
+.s-four-spin-three {
+    top: 40%;
+    left: 10%;
+    transform: rotate(-120deg);
+}
+
+.s-four-spin-four {
+    left: 8%;
+    top: 1%;
+}
+
+.s-four-spin-five {
+    right: 6%;
+    bottom: 4%;
+    transform: rotate(60deg);
+}
+
+.s-four-spin-six {
+    left: 27%;
+    bottom: 0;
+    transform: rotate(-15deg);
+}
+
+.s-five-spin-one {
+    top: 13%;
+    right: 8%;
+    transform: rotate(-25deg);
+}
+
+.s-five-spin-two {
+    top: 45%;
+    right: 50%;
+    transform: rotate(45deg);
+}
+
+.s-five-spin-three {
+    bottom: 5%;
+    right: 14%;
+}
+
+.s-five-spin-four {
+    top: 6%;
+    left: 13%;
+}
+
+.s-six-spin-one {
+    bottom: 0;
+    left: 4%;
+}
+
+.s-six-spin-two {
+    top: 3%;
+    left: 13%;
+    transform: rotate(-60deg);
+}
+
+.s-six-spin-three {
+    top: 45%;
+    right: 45%;
+    transform: rotate(30deg);
+}
+
+.s-six-spin-four {
+    top: 14%;
+    right: 12%;
+}
+
+.s-six-spin-five {
+    bottom: 10%;
+    transform: rotate(90deg);
+    right: 10%;
+}

@@ -22,6 +22,13 @@
     width: 25%;
     height: 25%;
     background: brown;
+}
+
+.quarter-left {
+    border-bottom-right-radius: 90px;
+}
+
+.quarter-right {
     border-bottom-left-radius: 90px;
 }
 
@@ -45,9 +52,17 @@
 }
 
 .quarter-ring {
-    border-right: none;
     border-top: none;
+}
+
+.quarter-ring-right {
+    border-right: none;
     border-bottom-left-radius: 90px;
+}
+
+.quarter-ring-left {
+    border-bottom-right-radius: 90px;
+    border-left: none;
 }
 
 .pepperoni-fat-one {
@@ -70,22 +85,76 @@
     right: 17%;
 }
 
-#pep-one {
+.s-one-pep-one {
+    top: 14%;
+    left: 7%;
+}
+
+.s-one-pep-two {
+    top: 35%;
+    right: 4%;
+}
+
+.s-one-pep-three {
+    bottom: 5%;
+    left: 23%;
+}
+
+.s-two-pep-one {
     top: 17%;
     left: 4%;
 }
 
-#pep-two {
+.s-two-pep-two {
     top: 45%;
     right: 10%;
 }
 
-#half-pep-one {
+.s-two-half-pep-one {
     bottom: 0;
     right: 38%;
 }
 
-#quarter-pep-one {
+.s-two-quart-pep-one {
     right: 0;
     top: 8%;
+}
+
+.s-three-quart-pep-one {
+    top: 8%;
+}
+
+.s-three-pep-one {
+    top: 35%;
+    right: 10%;
+}
+
+.s-three-half-pep-one {
+    right: 25%;
+    bottom: 0;
+}
+
+.s-three-pep-two {
+    top: 55%;
+    left: 7%;
+}
+
+.s-three-pep-three {
+    top: 18%;
+    left: 18%;
+}
+
+.s-four-pep-one {
+    top: 3%;
+    left: 24%;
+}
+
+.s-four-pep-two {
+    top: 60%;
+    left: 55%;
+}
+
+.s-four-pep-three {
+    top: 76%;
+    left: 20%;
 }

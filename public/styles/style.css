@@ -1319,3 +1319,138 @@ body {
 .s-six-olive-three {
   top: 3%;
   left: 10%; }
+
+/* ONION STYLES */
+.onion {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  border: 5px solid #800040;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 50%; }
+
+.onion-accent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 2.5px solid rgba(255, 255, 255, 0.7);
+  left: -5%;
+  top: -5%;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 50%; }
+
+.s-one-onion-one {
+  top: 30%;
+  left: 25%; }
+
+.s-one-onion-two {
+  top: 45%;
+  right: 10%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.s-one-onion-three {
+  top: 10%;
+  right: 5%;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg); }
+
+.s-one-onion-four {
+  top: 69%;
+  left: 13%;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg); }
+
+.s-two-onion-one {
+  top: 7%;
+  right: 37%;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg); }
+
+.s-two-onion-two {
+  top: 50%;
+  right: 13%; }
+
+.s-two-onion-three {
+  top: 55%;
+  left: 10%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+
+.s-three-onion-one {
+  top: 20%;
+  left: 20%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.s-three-onion-two {
+  top: 65%;
+  right: 8%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg); }
+
+.s-three-onion-three {
+  top: 68%;
+  left: 3%; }
+
+.s-four-onion-one {
+  top: 4%;
+  left: 12%;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg); }
+
+.s-four-onion-two {
+  top: 45%;
+  right: 33%;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg); }
+
+.s-four-onion-three {
+  top: 32%;
+  left: 56%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+
+.s-four-onion-four {
+  top: 68%;
+  right: 4%; }
+
+.s-five-onion-one {
+  top: 4%;
+  right: 50%; }
+
+.s-five-onion-two {
+  top: 14%;
+  right: 8%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg); }
+
+.s-five-onion-three {
+  top: 55%;
+  left: 37%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.s-five-onion-four {
+  top: 65%;
+  left: 28%;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg); }
+
+.s-six-onion-one {
+  bottom: 40%;
+  right: 12%; }
+
+.s-six-onion-two {
+  top: 13%;
+  left: 3%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.s-six-onion-three {
+  top: 45%;
+  right: 45%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }

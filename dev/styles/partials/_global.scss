@@ -6,13 +6,14 @@ body {
 }
 
 .wrapper {
-    max-width: 1280px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
 header {
     background: $salmon;
-    padding: 25px 0;
+    padding: 35px 0;
+    margin: 20px 0;
 }
 
 span {
@@ -121,6 +122,15 @@ form {
 
 input {
     display: none;
+}
+
+.showClass {
+    visibility: visible;
+}
+
+.labelSelected {
+    color: $salmon;
+    text-shadow: black 1px 0 5px;
 }
 
 label {

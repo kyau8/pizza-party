@@ -1442,16 +1442,14 @@ body {
 header {
   background: #F9A172;
   padding: 35px 0;
-  margin: 20px 0; }
+  margin-bottom: 20px; }
 
 span {
   color: #75B9BE; }
 
-.fresh {
-  -webkit-text-decoration: overline underline #FEF3DD;
-          text-decoration: overline underline #FEF3DD; }
-
 h1 {
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.336) 1px 0 5px;
   font-style: italic;
   font-family: "Supermercado One", Arial, sans-serif;
   font-size: 3.8rem;

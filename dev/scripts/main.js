@@ -8,7 +8,6 @@ function onClickHandler(e) {
         if(toppingId.checked) {
             pizzaTopping[i].classList.add("showClass");
             toppingLabel.classList.add('labelSelected');
-            console.log(toppingId);
         } else {
             toppingLabel.classList.remove('labelSelected');
             pizzaTopping[i].classList.remove("showClass");

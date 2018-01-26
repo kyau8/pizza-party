@@ -13,18 +13,16 @@ body {
 header {
     background: $salmon;
     padding: 35px 0;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 span {
     color: $blue;
 }
 
-.fresh {
-    text-decoration: overline underline $white;
-}
-
 h1 {
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.336) 1px 0 5px;
     font-style: italic;
     font-family: "Supermercado One", Arial, sans-serif;
     font-size: 3.8rem;
